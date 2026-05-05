@@ -10,90 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
 
-  <style>
-    :root {
-      --brand-navy: #0f2346;
-      --brand-red: #ee1c25;
-      --soft-bg: #f8fafc;
-      --ink: #1f2937;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: 'Instrument Sans', sans-serif;
-      color: var(--ink);
-      background: var(--soft-bg);
-    }
-
-    .section-space {
-      padding-top: 5.5rem;
-      padding-bottom: 5.5rem;
-    }
-
-    .title-lg {
-      font-size: clamp(2rem, 4vw, 3.25rem);
-      line-height: 1.06;
-      letter-spacing: -0.02em;
-    }
-
-    .title-md {
-      font-size: clamp(1.6rem, 3vw, 2.2rem);
-      line-height: 1.15;
-      letter-spacing: -0.01em;
-    }
-
-    .accent-bar {
-      position: relative;
-      display: inline-block;
-    }
-
-    .accent-bar::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: -0.35rem;
-      height: 0.28rem;
-      background: var(--brand-red);
-      border-radius: 999px;
-    }
-
-    .hero-glow {
-      background:
-        radial-gradient(circle at 12% 12%, rgba(238, 28, 37, 0.14), transparent 34%),
-        radial-gradient(circle at 88% 12%, rgba(15, 35, 70, 0.15), transparent 36%),
-        linear-gradient(145deg, #ffffff 0%, #f2f6fb 55%, #ecf2fa 100%);
-    }
-
-    .card-lift {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .card-lift:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 18px 45px rgba(15, 35, 70, 0.12);
-    }
-
-    .industry-panel {
-      position: relative;
-      overflow: hidden;
-    }
-
-    .industry-panel::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(238, 28, 37, 0.06), rgba(15, 35, 70, 0.02));
-      pointer-events: none;
-    }
-
-    nav a.active {
-      color: var(--brand-red);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -138,25 +55,25 @@
         <div class="lg:col-span-7">
           <p class="text-[#ee1c25] text-sm tracking-[0.18em] font-semibold uppercase mb-5">Industries We Serve</p>
           <h1 class="title-lg text-[#0f2346] font-extrabold mb-6">
-            Engineering Support Across
-            <span class="accent-bar">High-Stakes Industry Environments</span>
+            Industries We Serve in 
+            <span class="accent-bar">High Growth Sectors</span>
           </h1>
           <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-            Shlok Networks supports organizations operating in demanding sectors where reliability, safety, scalability, and performance are essential. Our engineering guidance adapts to the realities of each domain while keeping architecture decisions aligned with long-term operational needs.
+            Shlok Networks works across fast-evolving sectors where power-electronics expertise, strong customer access, and dependable local execution can directly influence growth. Our focus is on helping global suppliers align with the industries creating the most meaningful demand in India.
           </p>
 
           <div class="mt-10 grid sm:grid-cols-3 gap-4 max-w-3xl">
             <div class="bg-white/80 border border-white rounded-2xl p-4 shadow-sm">
-              <p class="text-3xl font-extrabold text-[#0f2346]">5</p>
-              <p class="text-sm text-slate-600 mt-1">Core industries featured on this page</p>
+              <p class="text-3xl font-extrabold text-[#0f2346]">6</p>
+              <p class="text-sm text-slate-600 mt-1">Priority industries featured on this page</p>
             </div>
             <div class="bg-white/80 border border-white rounded-2xl p-4 shadow-sm">
-              <p class="text-3xl font-extrabold text-[#0f2346]">Mission-Critical</p>
-              <p class="text-sm text-slate-600 mt-1">Support shaped around uptime, safety, and operational resilience</p>
+              <p class="text-3xl font-extrabold text-[#0f2346]">Design-Win</p>
+              <p class="text-sm text-slate-600 mt-1">Support shaped around specification influence, qualification, and scale-up</p>
             </div>
             <div class="bg-white/80 border border-white rounded-2xl p-4 shadow-sm">
-              <p class="text-3xl font-extrabold text-[#0f2346]">Multi-Domain</p>
-              <p class="text-sm text-slate-600 mt-1">Cross-sector engineering perspective that transfers proven patterns</p>
+              <p class="text-3xl font-extrabold text-[#0f2346]">India Growth</p>
+              <p class="text-sm text-slate-600 mt-1">Focused on sectors where supplier expansion and local demand are accelerating</p>
             </div>
           </div>
         </div>
@@ -177,11 +94,11 @@
         <div class="grid lg:grid-cols-12 gap-12 items-start">
           <div class="lg:col-span-4">
             <p class="text-[#ee1c25] text-sm tracking-[0.16em] font-semibold uppercase mb-4">Industry Expertise</p>
-            <h2 class="title-md font-extrabold text-[#0f2346]">Built for Engineering Conditions That Leave Little Room for Error</h2>
+            <h2 class="title-md font-extrabold text-[#0f2346]">Built for Industries Where Demand, Reliability, and Speed Matter Together</h2>
           </div>
           <div class="lg:col-span-8 space-y-5 text-slate-700 text-lg leading-relaxed">
-            <p>Each industry brings different operating pressures, regulatory expectations, performance targets, and integration challenges. Our role is to help engineering teams navigate those realities with stronger architecture decisions and clearer execution priorities.</p>
-            <p>From transportation and defense to healthcare, telecom, and industrial systems, we support organizations where technical reliability is directly tied to business continuity, user safety, and long-term platform value.</p>
+            <p>Each target industry has its own buying behavior, technical expectations, qualification path, and pace of adoption. Shlok Networks helps suppliers engage those realities with sharper positioning, stronger customer access, and more effective local support.</p>
+            <p>From telecom and EV infrastructure to industrial automation, aerospace, data centers, and renewable energy, we focus on segments where power platforms and system reliability are central to long-term growth.</p>
           </div>
         </div>
       </div>
@@ -191,96 +108,162 @@
       <div class="max-w-7xl mx-auto px-6">
         <div class="max-w-3xl mb-12">
           <p class="text-[#ee1c25] text-sm tracking-[0.16em] font-semibold uppercase mb-4">Industry Segments</p>
-          <h2 class="title-md font-extrabold text-[#0f2346]">Where Shlok Supports Engineering Teams</h2>
+          <h2 class="title-md font-extrabold text-[#0f2346]">Where Shlok Supports Supplier Growth and Customer Engagement</h2>
         </div>
 
-        <div class="space-y-8">
-          <article class="industry-panel card-lift bg-white border border-slate-100 rounded-3xl p-8 lg:p-10">
-            <div class="relative z-10 grid lg:grid-cols-12 gap-8 items-center">
-              <div class="lg:col-span-5">
-                <img src="img/automative.jpg" alt="Automotive engineering" class="rounded-3xl w-full h-[320px] object-cover shadow-lg" />
-              </div>
-              <div class="lg:col-span-7">
-                <p class="text-xs font-semibold text-[#ee1c25] tracking-[0.16em]">01</p>
-                <h3 class="text-2xl font-extrabold text-[#0f2346] mt-3">Automotive</h3>
-                <p class="text-slate-600 mt-4 text-lg leading-relaxed">Automotive systems require highly reliable engineering architectures capable of handling dynamic load conditions and safety requirements.</p>
-                <p class="text-slate-600 mt-3 text-lg leading-relaxed">Shlok supports EV platforms, ICE systems, and vehicle electronics development.</p>
-                <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                  <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore Automotive Engineering</a>
-                  <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Discuss EV Architecture</a>
+        <div class="service-stack">
+          <article class="service-row">
+            <div class="service-visual">
+              <div class="service-frame pink card-lift">
+                <div class="service-screen">
+                  <div class="service-illustration">
+                    <img src="img/telecom.jpg" alt="Telecom and 5G infrastructure" />
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="service-copy">
+              <span class="service-index">01</span>
+              <h3 class="service-heading">Telecom &amp; 5G Infrastructure</h3>
+              <p class="service-lead">Telecom and 5G programs depend on highly reliable power systems, dense infrastructure planning, and consistent field performance.</p>
+              <div class="service-bullets">
+                <p>High-uptime infrastructure requirements drive demand for efficient and reliable power platforms.</p>
+                <p>Growing 5G deployment creates strong opportunities for suppliers with robust telecom-ready solutions.</p>
+                <p>Shlok Networks helps suppliers connect with telecom stakeholders and support infrastructure opportunities where uptime, efficiency, and scalability are critical.</p>
+              </div>
+              <div class="service-links">
+                <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore Telecom Opportunities</a>
+                <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Discuss 5G Infrastructure</a>
               </div>
             </div>
           </article>
 
-          <article class="industry-panel card-lift bg-white border border-slate-100 rounded-3xl p-8 lg:p-10">
-            <div class="relative z-10 grid lg:grid-cols-12 gap-8 items-center">
-              <div class="lg:col-span-7 lg:order-1 order-2">
-                <p class="text-xs font-semibold text-[#ee1c25] tracking-[0.16em]">02</p>
-                <h3 class="text-2xl font-extrabold text-[#0f2346] mt-3">Defense</h3>
-                <p class="text-slate-600 mt-4 text-lg leading-relaxed">Defense systems demand uncompromised reliability and mission-critical performance.</p>
-                <p class="text-slate-600 mt-3 text-lg leading-relaxed">Shlok supports engineering systems across ground-based, mobile, naval, and airborne applications.</p>
-                <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                  <a href="index.html#contact" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Discuss Defense Engineering</a>
-                  <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Request Secure Consultation</a>
+          <article class="service-row reverse">
+            <div class="service-visual">
+              <div class="service-frame blue card-lift">
+                <div class="service-screen">
+                  <div class="service-illustration">
+                    <img src="img/ev-systems.jpg" alt="EV charging and mobility" />
+                  </div>
                 </div>
               </div>
-              <div class="lg:col-span-5 lg:order-2 order-1">
-                <img src="img/defense.jpg" alt="Defense engineering systems" class="rounded-3xl w-full h-[320px] object-cover shadow-lg" />
+            </div>
+            <div class="service-copy">
+              <span class="service-index">02</span>
+              <h3 class="service-heading">EV Charging &amp; Mobility</h3>
+              <p class="service-lead">EV charging and mobility platforms are scaling quickly, creating demand for robust power conversion, charging infrastructure, and dependable field deployment.</p>
+              <div class="service-bullets">
+                <p>Charging ecosystems need fast deployment, reliable conversion, and strong local service responsiveness.</p>
+                <p>Mobility programs reward suppliers who can support both technical integration and commercial scale-up.</p>
+                <p>Shlok Networks supports suppliers targeting charging ecosystems and mobility programs where fast design-ins and reliable support can accelerate adoption.</p>
+              </div>
+              <div class="service-links">
+                <a href="index.html#contact" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore EV Mobility Demand</a>
+                <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Discuss Charging Programs</a>
               </div>
             </div>
           </article>
 
-          <article class="industry-panel card-lift bg-white border border-slate-100 rounded-3xl p-8 lg:p-10">
-            <div class="relative z-10 grid lg:grid-cols-12 gap-8 items-center">
-              <div class="lg:col-span-5">
-                <img src="img/healthcare.jpg" alt="Healthcare engineering systems" class="rounded-3xl w-full h-[320px] object-cover shadow-lg" />
-              </div>
-              <div class="lg:col-span-7">
-                <p class="text-xs font-semibold text-[#ee1c25] tracking-[0.16em]">03</p>
-                <h3 class="text-2xl font-extrabold text-[#0f2346] mt-3">Healthcare</h3>
-                <p class="text-slate-600 mt-4 text-lg leading-relaxed">Healthcare technology requires engineering precision and reliability to support critical medical applications.</p>
-                <p class="text-slate-600 mt-3 text-lg leading-relaxed">Shlok supports engineering platforms for medical devices and healthcare infrastructure systems.</p>
-                <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                  <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore Healthcare Systems</a>
-                  <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Initiate Medical Engineering Consultation</a>
+          <article class="service-row">
+            <div class="service-visual">
+              <div class="service-frame pink card-lift">
+                <div class="service-screen">
+                  <div class="service-illustration">
+                    <img src="img/datacenter.jpg" alt="Data centers and edge computing" />
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="service-copy">
+              <span class="service-index">03</span>
+              <h3 class="service-heading">Data Centers &amp; Edge Computing</h3>
+              <p class="service-lead">Data centers and edge environments require efficient, resilient power architectures that can support continuous uptime and future expansion.</p>
+              <div class="service-bullets">
+                <p>Digital infrastructure growth is increasing demand for high-density, highly reliable power systems.</p>
+                <p>Edge deployments require compact, scalable solutions that maintain performance in distributed environments.</p>
+                <p>Shlok Networks helps suppliers engage with opportunities tied to digital infrastructure, high-density compute, and edge deployment growth across India.</p>
+              </div>
+              <div class="service-links">
+                <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore Data Center Programs</a>
+                <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Discuss Edge Infrastructure</a>
               </div>
             </div>
           </article>
 
-          <article class="industry-panel card-lift bg-white border border-slate-100 rounded-3xl p-8 lg:p-10">
-            <div class="relative z-10 grid lg:grid-cols-12 gap-8 items-center">
-              <div class="lg:col-span-7 lg:order-1 order-2">
-                <p class="text-xs font-semibold text-[#ee1c25] tracking-[0.16em]">04</p>
-                <h3 class="text-2xl font-extrabold text-[#0f2346] mt-3">Telecom &amp; Communication</h3>
-                <p class="text-slate-600 mt-4 text-lg leading-relaxed">Telecom infrastructure requires scalable engineering systems that support high uptime and performance.</p>
-                <p class="text-slate-600 mt-3 text-lg leading-relaxed">Shlok supports engineering architecture for telecom networks, 5G infrastructure, and data centers.</p>
-                <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                  <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Architect Telecom Infrastructure</a>
-                  <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Request Telecom Engineering Consultation</a>
+          <article class="service-row reverse">
+            <div class="service-visual">
+              <div class="service-frame blue card-lift">
+                <div class="service-screen">
+                  <div class="service-illustration">
+                    <img src="img/industrial.jpg" alt="Industrial automation" />
+                  </div>
                 </div>
               </div>
-              <div class="lg:col-span-5 lg:order-2 order-1">
-                <img src="img/telecom.jpg" alt="Telecom and communication systems" class="rounded-3xl w-full h-[320px] object-cover shadow-lg" />
+            </div>
+            <div class="service-copy">
+              <span class="service-index">04</span>
+              <h3 class="service-heading">Industrial Automation</h3>
+              <p class="service-lead">Industrial automation environments depend on durable, efficient, and integration-friendly platforms that can perform in demanding operating conditions.</p>
+              <div class="service-bullets">
+                <p>Factories and control environments need solutions that balance uptime, ruggedness, and integration simplicity.</p>
+                <p>Automation-driven growth creates recurring opportunities for suppliers who can support long-cycle industrial programs.</p>
+                <p>Shlok Networks supports suppliers serving automation, robotics, factory systems, and control infrastructure where reliability and continuity matter daily.</p>
+              </div>
+              <div class="service-links">
+                <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore Automation Systems</a>
+                <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Discuss Industrial Applications</a>
               </div>
             </div>
           </article>
 
-          <article class="industry-panel card-lift bg-white border border-slate-100 rounded-3xl p-8 lg:p-10">
-            <div class="relative z-10 grid lg:grid-cols-12 gap-8 items-center">
-              <div class="lg:col-span-5">
-                <img src="img/industrial.jpg" alt="Industrial systems engineering" class="rounded-3xl w-full h-[320px] object-cover shadow-lg" />
-              </div>
-              <div class="lg:col-span-7">
-                <p class="text-xs font-semibold text-[#ee1c25] tracking-[0.16em]">05</p>
-                <h3 class="text-2xl font-extrabold text-[#0f2346] mt-3">Industrial Systems</h3>
-                <p class="text-slate-600 mt-4 text-lg leading-relaxed">Industrial environments require durable engineering solutions capable of operating under demanding conditions.</p>
-                <p class="text-slate-600 mt-3 text-lg leading-relaxed">Shlok supports automation, robotics, and manufacturing infrastructure systems.</p>
-                <div class="mt-6 flex flex-col sm:flex-row gap-3">
-                  <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore Industrial Engineering</a>
-                  <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Discuss Industrial Applications</a>
+          <article class="service-row">
+            <div class="service-visual">
+              <div class="service-frame pink card-lift">
+                <div class="service-screen">
+                  <div class="service-illustration">
+                    <img src="img/defense.jpg" alt="Defense and aerospace" />
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="service-copy">
+              <span class="service-index">05</span>
+              <h3 class="service-heading">Defense &amp; Aerospace</h3>
+              <p class="service-lead">Defense and aerospace applications call for high reliability, disciplined qualification, and performance that holds up under mission-critical conditions.</p>
+              <div class="service-bullets">
+                <p>Programs in this sector demand technical credibility, trusted engagement, and long-cycle support discipline.</p>
+                <p>Qualification and compliance expectations make local responsiveness and supplier confidence especially important.</p>
+                <p>Shlok Networks supports suppliers targeting programs where technical credibility, trusted engagement, and long-cycle design support are essential.</p>
+              </div>
+              <div class="service-links">
+                <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore Defense Opportunities</a>
+                <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Request Secure Discussion</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-row reverse">
+            <div class="service-visual">
+              <div class="service-frame blue card-lift">
+                <div class="service-screen">
+                  <div class="service-illustration">
+                    <img src="img/renewable-energy.jpg" alt="Renewable energy and storage" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-copy">
+              <span class="service-index">06</span>
+              <h3 class="service-heading">Renewable Energy &amp; Storage</h3>
+              <p class="service-lead">Renewable energy and storage systems are creating sustained demand for efficient power electronics, dependable conversion platforms, and scalable deployment support.</p>
+              <div class="service-bullets">
+                <p>Energy transition investments are expanding demand across solar, storage, and clean-energy infrastructure.</p>
+                <p>Suppliers that combine product strength with timely field support can gain long-term share in this segment.</p>
+                <p>Shlok Networks helps suppliers engage with solar, energy storage, and broader clean-energy opportunities where technical support and market timing can shape long-term growth.</p>
+              </div>
+              <div class="service-links">
+                <a href="index.html#services" class="bg-[#ee1c25] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#d71720] transition">Explore Energy Storage Demand</a>
+                <a href="index.html#contact" class="border border-slate-300 text-[#0f2346] px-6 py-3 rounded-full font-semibold text-center hover:bg-white transition">Discuss Renewable Programs</a>
               </div>
             </div>
           </article>
@@ -293,27 +276,27 @@
         <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
           <div>
             <p class="text-[#ee1c25] text-sm tracking-[0.16em] font-semibold uppercase mb-4">Why Industry Context Matters</p>
-            <h2 class="title-md font-extrabold text-[#0f2346]">The Right Engineering Advice Depends on the Operating Environment</h2>
+            <h2 class="title-md font-extrabold text-[#0f2346]">The Right Commercial Strategy Depends on the Market Environment</h2>
           </div>
-          <p class="text-slate-600 max-w-2xl">Shlok brings systems thinking into sector-specific realities, helping teams make decisions that stand up to safety constraints, uptime expectations, deployment complexity, and scaling pressure.</p>
+          <p class="text-slate-600 max-w-2xl">Shlok brings supplier-facing market understanding into each sector, helping companies align technical strengths with buying cycles, qualification needs, and growth priorities inside India.</p>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div class="rounded-2xl p-7 border border-slate-200 bg-gradient-to-br from-white to-slate-50 card-lift">
-            <h3 class="text-xl font-bold text-[#0f2346]">Safety</h3>
-            <p class="text-slate-600 mt-3">We help teams design with reliability and operational risk in view from the start.</p>
+            <h3 class="text-xl font-bold text-[#0f2346]">Access</h3>
+            <p class="text-slate-600 mt-3">We help suppliers engage the right decision-makers earlier in the cycle, where design choices and vendor direction are still being shaped.</p>
           </div>
           <div class="rounded-2xl p-7 border border-slate-200 bg-gradient-to-br from-white to-slate-50 card-lift">
-            <h3 class="text-xl font-bold text-[#0f2346]">Performance</h3>
-            <p class="text-slate-600 mt-3">Architectures are evaluated for the load, uptime, and response expectations of each domain.</p>
+            <h3 class="text-xl font-bold text-[#0f2346]">Relevance</h3>
+            <p class="text-slate-600 mt-3">Every sector has different technical expectations, commercial language, and urgency. Positioning is tailored to the operating reality of that market.</p>
           </div>
           <div class="rounded-2xl p-7 border border-slate-200 bg-gradient-to-br from-white to-slate-50 card-lift">
-            <h3 class="text-xl font-bold text-[#0f2346]">Scalability</h3>
-            <p class="text-slate-600 mt-3">We support platforms that must grow without introducing avoidable complexity or fragility.</p>
+            <h3 class="text-xl font-bold text-[#0f2346]">Conversion</h3>
+            <p class="text-slate-600 mt-3">Local support, faster response, and stronger follow-through improve the odds of moving from interest to qualification and production business.</p>
           </div>
           <div class="rounded-2xl p-7 border border-slate-200 bg-gradient-to-br from-white to-slate-50 card-lift">
-            <h3 class="text-xl font-bold text-[#0f2346]">Execution</h3>
-            <p class="text-slate-600 mt-3">Advice stays grounded in what engineering teams can actually implement and sustain.</p>
+            <h3 class="text-xl font-bold text-[#0f2346]">Growth</h3>
+            <p class="text-slate-600 mt-3">The goal is not just activity, but sustained revenue expansion across industries where long-term demand and supplier value can compound.</p>
           </div>
         </div>
       </div>
